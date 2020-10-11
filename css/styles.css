@@ -6,12 +6,7 @@ body {
 #title {
   background-color: #e6e6fa;
   color: #6a5acd;
-  /*
-  background-color: #ff4c68;
-  color: #fff;
-  */
 }
-
 
 h1 {
   font-family: 'Ubuntu', sans-serif;
@@ -22,18 +17,16 @@ h1 {
 
 h2 {
   font-family: 'Ubuntu', sans-serif;
-  /* font-family: 'Merriweather Sans-Bold', sans-serif; */
   font-weight: bolder;
   font-size: 3rem;
   line-height: 1.5;
 }
-h2:hover{
-  color: #6a5acd;
 
+h2:hover {
+  color: #6a5acd;
 }
 
 h3 {
-  /* font-family: 'Merriweather Sans', sans-serif; */
   font-family: 'Montserrat-Bold', sans-serif;
   font-weight: bolder;
 }
@@ -50,7 +43,6 @@ p {
 .navbar {
   padding: 0 0 4.5rem 1.5rem;
   text-align: center;
-
 }
 
 .navbar-brand {
@@ -68,11 +60,8 @@ p {
   font-size: 1.2rem;
 }
 
-
-
 .dropdown-menu.show {
-
-  background-color:#e6e6fa;
+  background-color: #e6e6fa;
 }
 
 /* Navigation Button */
@@ -86,10 +75,6 @@ p {
   transform: rotate(30deg);
   position: absolute;
   right: 25%;
-  /* border-radius: 100%;
-  border: solid #fff; */
-
-
 }
 
 /* Objectives */
@@ -114,36 +99,9 @@ p {
   color: #6a5acd;
 }
 
-/* Sayings */
-/* #sayings {
-  text-align: center;
-  background-color: #e6e6fa;
-  color: #6a5acd;
-}
-
-.sayings-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 2%;
-  /* padding 2% instead makes the image smaller kinda */
-/* }
-dfdf */
-
 .carousel-item {
   padding: 5% 10%;
 }
-
-/* Medeias */
-/* #medias {
-  background-color: #e6e6fa;
-  text-align: center;
-  padding-bottom: 2%;
-}
-
-.media-logo {
-  width: 10%;
-  margin: 2% 5%;
-} */
 
 /* Links */
 #links {
@@ -154,18 +112,6 @@ dfdf */
 .links-column {
   padding: 2%;
 }
-
-/* COPYRIGHTS */
-/* #copyrights {
-  text-align: center;
-  background-color: #e6e6fa;
-  padding: 5% 10%;
-}
-
-.copys {
-  font-size: 3.5rem;
-  line-height: 1;
-} */
 
 #footer {
   text-align: center;
@@ -189,142 +135,110 @@ dfdf */
 .rowsTable {
   margin-bottom: 9%;
 }
-.carousel-control-next-icon{
+
+.carousel-control-next-icon {
   margin-left: 70%;
   background-color: #5bc0de;
 }
-.carousel-control-prev-icon{
+
+.carousel-control-prev-icon {
   margin-right: 70%;
   background-color: #5bc0de;
 }
 
-
-/* #autism {
-  text-align: center;
-}
-
-#anxietys {
-  text-align: center;
-  background-color: #e6e6fa;
-} */
-
 /* font under the Table */
-.h5Table{
+.h5Table {
   color: #000;
-
 }
-.p5Table{
+
+.p5Table {
   color: #6a5acd;
 }
 
-
-.liLeft{
-
+.liLeft {
   text-align: left;
   margin-bottom: 3%;
   font-size: 95%;
 }
 
-
 @media (max-width: 768px) {
+
   /* start of medium tablet styles */
   #title {
     text-align: center;
   }
 
-
   .title-image {
     position: static;
     transform: rotate(0);
     width: 20%;
-
-  /* .rowsTable {
-    margin-bottom: 10%;
-  } */
   }
 
-  h1{
+  h1 {
     font-size: 1.4rem;
   }
 
   h2 {
-
     font-size: 1.8rem;
   }
 
   .objective-box {
-
-      padding: 5%;
-      font-size: 80%;
+    padding: 5%;
+    font-size: 80%;
   }
 
-  #links{
-
-  font-size: 80%;
-
-  }
-  .btn-link{
-  font-size: 85%;
-
+  #links {
+    font-size: 80%;
   }
 
+  .btn-link {
+    font-size: 85%;
+  }
 
-  h3{
+  h3 {
     font-size: 160%;
   }
+
   .col-10 {
-
-      padding: 0;
+    padding: 0;
   }
-  .rowsTable{
 
+  .rowsTable {
     font-size: 90%;
   }
 
-  .carousel-item{
-
-  padding: 0.5% 0;
-
+  .carousel-item {
+    padding: 0.5% 0;
   }
-  .py-3{
-  padding: 0.5% 0;
 
+  .py-3 {
+    padding: 0.5% 0;
   }
-  .foo-icon{
 
-  font-size: 110%;
+  .foo-icon {
+    font-size: 110%;
   }
 
   .navbar {
     padding: 0 0 1.5rem;
   }
-  .navbar-brand{
-  font-size: 190%;
-  }
-  .navbar-toggler{
 
+  .navbar-brand {
+    font-size: 190%;
+  }
+
+  .navbar-toggler {
     font-size: 80%;
   }
+
   .nav-link {
     font-size: 1rem;
   }
 
-  .dropdown-item{
-  font-size: 1rem;
-
+  .dropdown-item {
+    font-size: 1rem;
   }
-
-
-
-
-
-
-
-
-
 }
-
-
 
 /* @media (max-width: 768px) and (min-width: 849px) {
 
@@ -337,87 +251,63 @@ dfdf */
 
 
 }*/
+@media (max-width: 480px) {
 
-@media (max-width: 480px){
   /* start of phone styles */
-  h1{
+  h1 {
     font-size: 1.1rem;
   }
 
-  .title-image{
-
+  .title-image {
     width: 20%;
-
   }
-  h2 {
 
+  h2 {
     font-size: 1.5rem;
   }
 
   .objective-box {
-
-      font-size: 70%;
-  }
-  .btn-link{
-  font-size: 65%;
-
+    font-size: 70%;
   }
 
-#links{
+  .btn-link {
+    font-size: 65%;
+  }
 
-font-size: 60%;
+  #links {
+    font-size: 60%;
+  }
 
-}
-
-  h3{
+  h3 {
     font-size: 150%;
   }
 
-  .rowsTable{
-
+  .rowsTable {
     font-size: 80%;
   }
 
-.foo-icon{
+  .foo-icon {
+    font-size: 90%;
+  }
 
-  font-size: 90%;
-}
+  .navbar-brand {
+    font-size: 160%;
+  }
 
-.navbar-brand{
-  font-size: 160%;
-}
-.navbar-toggler{
-
+  .navbar-toggler {
     font-size: 50%;
-}
-.nav-link {
+  }
+
+  .nav-link {
     font-size: 0.8rem;
+  }
+
+  .dropdown-item {
+    font-size: 0.8rem;
+  }
+.navbar-toggler{
+  background-color: #5bc0de;
+
 }
-
-.dropdown-item{
-  font-size: 0.8rem;
-
-}
-
-
-
-/* .p{
-  font-size: ;
-} */
-
-
-
-/* .carousel-control-next-icon{
-  margin-left: 50%;
-  background-color: blue;
-}
-.carousel-control-prev-icon{
-  margin-right: 50%;
-  background-color: blue;
-} */
-
-
-
-
 
 }
