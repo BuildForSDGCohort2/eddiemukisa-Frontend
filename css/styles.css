@@ -72,6 +72,9 @@ p {
 .dropdown-item{
 color: #000;
 
+font-size: 0.8rem;
+
+
 }
 
 /* Navigation Button */
@@ -245,9 +248,9 @@ color: #000;
     font-size: 1rem;
   }
 
-  .dropdown-item {
+  /* .dropdown-item {
     font-size: 0.8rem;
-  }
+  } */
 }
 
 /* @media (max-width: 768px) and (min-width: 849px) {
@@ -313,7 +316,7 @@ color: #000;
   }
 
   .dropdown-item {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 .navbar-toggler{
   background-color: #5bc0de;
