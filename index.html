@@ -50,11 +50,8 @@
           <ul class="navbar-nav ml-auto">
             <!-- ml-auto adds an empty margin to the left -->
 
-            <li class="nav-item active">
-              <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
-            </li>
 
-            <li class="nav-item">
+            <li class="nav-item ">
               <!-- <a class="nav-link text-danger" href="#mental">AWARENESS</a> -->
               <a class="nav-link btn btn-outline-light btn-sm text-danger" href="#mental" role="button">AWARENESS</a>
 
@@ -65,7 +62,6 @@
 
             </li>
             <li class="nav-item">
-              <!-- <a class="nav-link" href="#links">Contact</a> -->
               <a class="nav-link btn btn-outline-light btn-sm text-dark" href="#links" role="button">Need Help Now?</a>
 
             </li>
@@ -75,31 +71,31 @@
                 Talk To Us
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                <a class="dropdown-item text-primary" href="https://m.me/100109035210548?ref=mentalautiawareness">Mental Auti-Awareness Messenger <i class="fab text-primary fa-facebook-messenger"></i></a>
+                <a class="dropdown-item " href="https://m.me/100109035210548?ref=mentalautiawareness">Mental Auti-Awareness Messenger <i class="fab text-primary fa-facebook-messenger"></i></a>
 
-                <div class="dropdown-divider text-danger"></div>
+                <div class="dropdown-divider"></div>
 
-                <a class="dropdown-item" href="#">Mental Auti-Awareness USSD Service</a>
+                <a class="dropdown-item " href="#">Mental Auti-Awareness USSD Service</a>
 
 
               </div>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                References
+                References Links
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="https://mental.health.go.ke/">Kenya Mental Taskforce</a>
-                <a class="dropdown-item" href="https://www.mayoclinic.org/diseases-conditions/mental-illness/symptoms-causes/syc-20374968">Mayoclinic</a>
-                <a class="dropdown-item" href="https://www.who.int/news-room/fact-sheets/detail/mental-disorders#:~:text=Mental%20disorders%20include%3A%20depression%2C%20bipolar,mental%20disorders%20such%20as%20depression">W.H.O</a>
-                <a class="dropdown-item" href="https://www.verywellmind.com/a-list-of-psychological-disorders-2794776">Verywellmind</a>
-                <a class="dropdown-item" href="https://www.demilked.com/architecture-mental-illness-disorders-illustrations-archiatric-federico-babina/">DeMilked</a>
+                <a class="dropdown-item " href="https://mental.health.go.ke/">Kenya Mental Taskforce</a>
+                <a class="dropdown-item " href="https://www.mayoclinic.org/diseases-conditions/mental-illness/symptoms-causes/syc-20374968">Mayoclinic</a>
+                <a class="dropdown-item " href="https://www.who.int/news-room/fact-sheets/detail/mental-disorders#:~:text=Mental%20disorders%20include%3A%20depression%2C%20bipolar,mental%20disorders%20such%20as%20depression">W.H.O</a>
+                <a class="dropdown-item " href="https://www.verywellmind.com/a-list-of-psychological-disorders-2794776">Verywellmind</a>
+                <a class="dropdown-item " href="https://www.demilked.com/architecture-mental-illness-disorders-illustrations-archiatric-federico-babina/">DeMilked</a>
 
 
 
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="https://www.youtube.com/watch?v=yar47jvr7M8">Khanacademymedicine</a>
-                <a class="dropdown-item" href="https://www.youtube.com/watch?v=x2hWVgZ8J4A">Osmosis</a>
+                <a class="dropdown-item " href="https://www.youtube.com/watch?v=yar47jvr7M8">Khanacademymedicine</a>
+                <a class="dropdown-item " href="https://www.youtube.com/watch?v=x2hWVgZ8J4A">Osmosis</a>
 
 
               </div>
@@ -119,13 +115,26 @@
       <!-- Title -->
       <div class="row">
         <div class="col-lg-6 col-md-6">
-          <h1>Mental Health is as Crucial as Physical Health.</h1>
-          <h1>Educate the Masses, Create Awareness, Help one another.</h1>
+          <!-- <h1>Mental Health is as Crucial as Physical Health.</h1> -->
+
+          <!-- <h1>Educate the Masses, Create Awareness, Help one another.</h1> -->
+
+
+<!--
+  <h1>raising <u>Awareness</u> of <u>Mental Health</u> and it's <u>problems</u>.</h1>
+  <h1>providing <u>User Friendly Services</u> that enable <u>Easy Access</u> to professional help wherever you are.</h1> -->
+
+  <h1>raising <u>Awareness</u> of <u>Mental Health</u>, </h1>
+  <h1>providing <u>User Friendly Services,</u></h1>
+  <h1><u>Easy Access</u> to professional help.</h1>
 
         </div>
 
         <div class="col-lg-6 col-md-6">
-          <img class="title-image" src="images/cranium.png" alt="watermark-mockup">
+          <img class="title-image" src="images/brain.jpg" alt="watermark-mockup">
+
+
+          <!-- <img class="title-image" src="images/cranium.png" alt="watermark-mockup"> -->
         </div>
       </div>
     </div>
@@ -860,29 +869,31 @@
     <p>© Copyright 2020 Mental Auti-Awareness</p>
 
   </footer>
+
+
   <!-- Load Facebook SDK for JavaScript -->
-        <div id="fb-root"></div>
-        <script>
-          window.fbAsyncInit = function() {
-            FB.init({
-              xfbml            : true,
-              version          : 'v8.0'
-            });
-          };
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml: true,
+        version: 'v8.0'
+      });
+    };
 
-          (function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 
-        <!-- Your Chat Plugin code -->
-        <div class="fb-customerchat"
-          attribution=setup_tool
-          page_id="100109035210548">
-        </div>
+  <!-- Your Chat Plugin code -->
+  <div class="fb-customerchat" attribution=setup_tool page_id="100109035210548">
+  </div>
 
 
 
