@@ -12,6 +12,7 @@ body {
   */
 }
 
+
 h1 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 2.5rem;
@@ -225,7 +226,7 @@ dfdf */
 }
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   /* start of medium tablet styles */
   #title {
     text-align: center;
@@ -235,37 +236,117 @@ dfdf */
   .title-image {
     position: static;
     transform: rotate(0);
-    border-radius: 100%;
-
-  }
+    width: 20%;
 
   /* .rowsTable {
     margin-bottom: 10%;
   } */
   }
+
+  h1{
+    font-size: 1.4rem;
+  }
+
+  h2 {
+
+    font-size: 1.8rem;
+  }
+
+  .objective-box {
+
+      padding: 5%;
+      font-size: 80%;
+  }
+
+  #links{
+
+  font-size: 80%;
+
+  }
+  .btn-link{
+  font-size: 85%;
+
+  }
+
+
+  h3{
+    font-size: 160%;
+  }
+  .col-10 {
+
+      padding: 0;
+  }
+  .rowsTable{
+
+    font-size: 90%;
+  }
+
+  .carousel-item{
+
+  padding: 0.5% 0;
+
+  }
+  .py-3{
+  padding: 0.5% 0;
+
+  }
+  .foo-icon{
+
+  font-size: 110%;
+  }
+
+  .navbar {
+    padding: 0 0 1.5rem;
+  }
+  .navbar-brand{
+  font-size: 190%;
+  }
+  .navbar-toggler{
+
+    font-size: 80%;
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .dropdown-item{
+  font-size: 1rem;
+
+  }
+
+
+
+
+
+
+
+
+
 }
+
+
+
 /* @media (max-width: 768px) and (min-width: 849px) {
 
    .rowsTable {
     margin-bottom: 15%;
-  } 
+  }
 
 }
- */
 
 
-}
+
+}*/
 
 @media (max-width: 480px){
   /* start of phone styles */
   h1{
-    font-size: 1.2rem;
-    color: yellow;
+    font-size: 1.1rem;
   }
 
   .title-image{
 
-    width: 50%;
+    width: 20%;
 
   }
   h2 {
@@ -275,44 +356,42 @@ dfdf */
 
   .objective-box {
 
-      padding: 5%;
-      font-size: 80%;
+      font-size: 70%;
   }
+  .btn-link{
+  font-size: 65%;
+
+  }
+
+#links{
+
+font-size: 60%;
+
+}
 
   h3{
     font-size: 150%;
   }
-  .col-10 {
 
-      padding: 0;
-  }
   .rowsTable{
 
     font-size: 80%;
   }
 
-.carousel-item{
-
-  padding: 0.5% 0;
-
-}
-.py-3{
-padding: 0.5% 0;
-
-}
 .foo-icon{
 
   font-size: 90%;
 }
 
-.navbar {
-    padding-bottom: 3.5rem;
-}
 .navbar-brand{
-  font-size: 180%;
+  font-size: 160%;
+}
+.navbar-toggler{
+
+    font-size: 50%;
 }
 .nav-link {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .dropdown-item{
