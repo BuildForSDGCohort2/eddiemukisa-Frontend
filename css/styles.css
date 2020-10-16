@@ -16,10 +16,9 @@ h1 {
   font-weight: bold;
 }
 
-h1:hover{
+h1:hover {
   color: #6a5acd;
 }
-
 
 h2 {
   font-family: 'Ubuntu', sans-serif;
@@ -56,6 +55,7 @@ p {
   font-size: 2.5rem;
   font-weight: bold;
 }
+
 .navbar-toggler {
   background-color: #5bc0de;
 }
@@ -69,12 +69,10 @@ p {
   font-size: 1.2rem;
 }
 
-.dropdown-item{
-color: #000;
-text-align: center;
-font-size: 0.8rem;
-
-
+.dropdown-item {
+  color: #000;
+  text-align: center;
+  font-size: 0.8rem;
 }
 
 /* Navigation Button */
@@ -94,8 +92,8 @@ font-size: 0.8rem;
 #objectives {
   padding: 5% 10%;
   background-color: #ffffff;
-  position: relative;
-  z-index: 1;
+  /* position: relative;
+  z-index: 1; */
 }
 
 .objective-box {
@@ -174,14 +172,20 @@ font-size: 0.8rem;
   font-size: 95%;
 }
 
-.mukisa{
+.mukisa {
   font-size: 80%;
   color: #000;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
 }
 
+.mukisa:hover {
+  color: #6a5acd;
+}
 
+.copyright:hover {
+  color: #6a5acd;
+}
 
 @media (max-width: 768px) {
 
@@ -327,9 +331,12 @@ font-size: 0.8rem;
   .dropdown-item {
     font-size: 0.7rem;
   }
-.navbar-toggler{
-  background-color: #5bc0de;
 
-}
+  .navbar-toggler {
+    background-color: #5bc0de;
+  }
 
+  .copyright {
+    font-size: 60%;
+  }
 }
