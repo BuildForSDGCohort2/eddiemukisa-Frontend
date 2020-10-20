@@ -281,55 +281,55 @@ p {
 
   /* start of phone styles */
   h1 {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
   }
 
   .title-image {
-    width: 90%;
+    width: 95%;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .objective-box {
-    font-size: 70%;
+    font-size: 75%;
   }
 
   .btn-link {
-    font-size: 65%;
+    font-size: 70%;
   }
 
   #links {
-    font-size: 60%;
+    font-size: 65%;
   }
 
   h3 {
-    font-size: 150%;
+    font-size: 155%;
   }
 
   .rowsTable {
-    font-size: 80%;
+    font-size: 85%;
   }
 
   .foo-icon {
-    font-size: 90%;
+    font-size: 95%;
   }
 
   .navbar-brand {
-    font-size: 160%;
+    font-size: 165%;
   }
 
   .navbar-toggler {
-    font-size: 50%;
+    font-size: 55%;
   }
 
   .nav-link {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
   }
 
   .dropdown-item {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
   }
 
   .navbar-toggler {
@@ -337,11 +337,11 @@ p {
   }
 
   .copyright {
-    font-size: 60%;
+    font-size: 65%;
   }
 
   .mukisa{
-  font-size: 60%;
+  font-size: 65%;
 
   }
 }
