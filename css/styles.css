@@ -140,8 +140,21 @@ p {
 
 #mental {
   text-align: center;
-  background-color: #e6e6fa;
+  background-color: #fff;
 }
+
+.awareness-image{
+
+width: 100%;
+/* height: 200%; */
+border-radius: 5%;
+position: absolute;
+right: 0;
+left: 0;
+bottom: 0;
+top: 0;
+}
+
 
 .rowsTable {
   margin-bottom: 9%;
@@ -164,6 +177,15 @@ p {
 
 .p5Table {
   color: #6a5acd;
+}
+
+.h5Tables {
+  color: #fff;
+
+}
+.p5Tables{
+  color: #fff;
+
 }
 
 .liLeft {
@@ -344,4 +366,18 @@ p {
   font-size: 65%;
 
   }
+
+  .awareness-image{
+
+  width: 100%;
+  height: 100%;
+  /* border-radius: 10%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 10; */
+  }
+
+
 }
