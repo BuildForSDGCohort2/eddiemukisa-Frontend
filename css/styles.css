@@ -221,13 +221,12 @@ top: 0;
   color: #6a5acd;
 }
 
-.sneedhelpnow-image{
+/* .sneedhelpnow-image{
   width: 90%;
   position: absolute;
-  /* right: 25%;  */
   left: 4%;
 
-}
+} */
 
 
 
@@ -317,6 +316,7 @@ top: 0;
   bottom: 0;
   top: 10; */
   }
+
   .needhelpnow-image{
     width: 80%;
 
@@ -328,6 +328,8 @@ top: 0;
     font-size: 0.8rem;
   } */
 }
+
+
 
 /* @media (max-width: 768px) and (min-width: 849px) {
 
@@ -425,9 +427,5 @@ top: 0;
 
 }
 
-/* .sneedhelpnow-image{
-  width: 90%;
-
-} */
 
 }
