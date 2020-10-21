@@ -194,6 +194,13 @@ top: 0;
   font-size: 95%;
 }
 
+.needhelpnow-image{
+  width: 60%;
+
+}
+
+
+
 .mukisa {
   font-size: 80%;
   color: #000;
@@ -219,7 +226,7 @@ top: 0;
   .title-image {
     /* position: static;
     transform: rotate(0); */
-    width: 60%;
+    width: 80%;
   }
 
   h1 {
@@ -282,6 +289,25 @@ top: 0;
   .nav-link {
     font-size: 1rem;
   }
+
+  .awareness-image{
+
+  width: 100%;
+  height: 100%;
+  /* border-radius: 10%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 10; */
+  }
+  .needhelpnow-image{
+    width: 80%;
+
+  }
+
+
+
 
   /* .dropdown-item {
     font-size: 0.8rem;
@@ -379,5 +405,9 @@ top: 0;
   top: 10; */
   }
 
+.needhelpnow{
+  width: 95%;
+
+}
 
 }
