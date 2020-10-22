@@ -221,6 +221,14 @@ top: 0;
   color: #6a5acd;
 }
 
+.contactsShadow{
+
+margin-left: 20%;
+margin-right: 20%;
+}
+
+
+
 /* .sneedhelpnow-image{
   width: 90%;
   position: absolute;
@@ -320,6 +328,11 @@ top: 0;
   .needhelpnow-image{
     width: 80%;
 
+  }
+  .contactsShadow{
+
+  margin-left: 20%;
+  margin-right: 20%;
   }
 
 
@@ -425,6 +438,11 @@ top: 0;
 .needhelpnow{
   width: 95%;
 
+}
+.contactsShadow{
+
+margin-left: 5%;
+margin-right: 5%;
 }
 
 
